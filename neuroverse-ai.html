@@ -1,0 +1,2162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neuroverse AI | Agencia de IA y Automatización para Empresas — Pablo Villanueva</title>
+<meta name="description" content="Generamos leads B2B con IA, automatizamos ventas y escalamos negocios. 233 reuniones en 30 días. $356K en 10 meses. Sesión estratégica gratuita con Pablo Villanueva · Barcelona.">
+<meta name="keywords" content="agencia inteligencia artificial, automatización ventas, generación leads B2B, agentes IA, marketing automatizado, outreach B2B, Pablo Villanueva, Neuroverse AI, Barcelona">
+<meta name="author" content="Pablo Villanueva — Neuroverse AI">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://neuroverse.ai/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://neuroverse.ai/">
+<meta property="og:title" content="Neuroverse AI — Escala tu negocio con Inteligencia Artificial">
+<meta property="og:description" content="233 reuniones B2B en 30 días. $356K en 10 meses. Automatizamos tu captación, tus ventas y tu crecimiento con IA. Agenda tu sesión gratuita.">
+<meta property="og:image" content="https://neuroverse.ai/og-image.jpg">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Neuroverse AI">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Neuroverse AI — IA que escala negocios">
+<meta name="twitter:description" content="233 reuniones B2B en 30 días. Sistemas de captación y automatización con IA. Pablo Villanueva · Barcelona.">
+
+<!-- JSON-LD: Business + FAQ -->
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Neuroverse AI",
+    "description": "Agencia especializada en inteligencia artificial, automatización de ventas y generación de leads B2B para empresas que quieren escalar.",
+    "founder": {
+      "@type": "Person",
+      "name": "Pablo Villanueva",
+      "jobTitle": "CEO & Founder",
+      "url": "https://www.linkedin.com/in/pablo-villanueva-43b726288/"
+    },
+    "address": {"@type": "PostalAddress","addressLocality": "Barcelona","addressCountry": "ES"},
+    "url": "https://neuroverse.ai",
+    "areaServed": ["ES", "LATAM", "EU"],
+    "serviceType": ["Automatización con IA", "Generación de Leads B2B", "Paid Media con IA", "Outreach B2B Automatizado"],
+    "priceRange": "$$$$",
+    "aggregateRating": {"@type": "AggregateRating","ratingValue": "5","reviewCount": "3"}
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question","name": "¿En cuánto tiempo veré resultados reales?","acceptedAnswer": {"@type": "Answer","text": "Los primeros indicadores suelen aparecer en las primeras 2-3 semanas. Resultados en pipeline y facturación, entre 30 y 60 días dependiendo de tu ciclo de venta."}},
+      {"@type": "Question","name": "¿Necesito tener un equipo técnico o saber de IA?","acceptedAnswer": {"@type": "Answer","text": "No. Nosotros construimos, configuramos e integramos todo. Solo necesitas acceso a las herramientas que ya usas."}},
+      {"@type": "Question","name": "¿Cuánto cuesta trabajar con Neuroverse AI?","acceptedAnswer": {"@type": "Answer","text": "Dependiendo del sistema que construyamos para ti. No tenemos precio de catálogo. En la sesión de diagnóstico gratuita te damos números concretos."}},
+      {"@type": "Question","name": "¿Qué diferencia hay entre Neuroverse AI y una agencia de marketing?","acceptedAnswer": {"@type": "Answer","text": "Una agencia gestiona tus campañas. Nosotros construimos el sistema que las hace funcionar solas. Cuando terminas de trabajar con nosotros, el sistema sigue generando."}}
+    ]
+  }
+]
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&family=Outfit:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#04060F;
+  --bg2:#080D1E;
+  --bg3:#0C1228;
+  --cyan:#00E5FF;
+  --cyan2:#00BFDF;
+  --purple:#7C3AED;
+  --purple2:#9D5FF5;
+  --text:#F0F4FF;
+  --muted:#6B7A9F;
+  --border:rgba(0,229,255,0.12);
+  --card:rgba(8,13,30,0.8);
+  --r:14px;
+}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:'Outfit',sans-serif;
+  font-size:16px;
+  line-height:1.7;
+  overflow-x:hidden;
+}
+
+/* ─── CANVAS BACKGROUND ─── */
+#neural-canvas{
+  position:fixed;top:0;left:0;width:100%;height:100%;
+  z-index:0;pointer-events:none;opacity:.35;
+}
+.page-wrapper{position:relative;z-index:1}
+
+/* ─── SCROLLBAR ─── */
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--purple);border-radius:2px}
+
+/* ─── SCROLL PROGRESS ─── */
+#scroll-progress{
+  position:fixed;top:0;left:0;z-index:9997;
+  height:2px;width:0%;
+  background:linear-gradient(90deg,var(--cyan),var(--purple2));
+  transition:width .1s linear;
+  box-shadow:0 0 8px rgba(0,229,255,.6);
+}
+
+/* ─── STICKY CTA BAR ─── */
+#sticky-bar{
+  position:fixed;bottom:0;left:0;right:0;z-index:990;
+  background:rgba(4,6,15,.92);backdrop-filter:blur(20px);
+  border-top:1px solid rgba(0,229,255,.15);
+  padding:14px 32px;
+  display:flex;align-items:center;justify-content:center;gap:24px;
+  transform:translateY(100%);
+  transition:transform .4s cubic-bezier(.34,1.2,.64,1);
+}
+#sticky-bar.show{transform:translateY(0)}
+.sticky-bar-text{font-size:14px;color:var(--muted)}
+.sticky-bar-text strong{color:var(--text)}
+.sticky-spots{
+  display:flex;align-items:center;gap:8px;
+  font-size:13px;font-weight:600;color:var(--cyan);
+}
+.spot-dot{width:8px;height:8px;border-radius:50%;background:#FF3D5A;animation:pulse 1.5s infinite}
+.sticky-cta{
+  background:linear-gradient(135deg,var(--cyan),var(--purple));
+  color:#04060F!important;font-weight:700;font-size:14px;
+  padding:10px 28px;border-radius:50px;text-decoration:none;
+  transition:transform .2s,box-shadow .2s;white-space:nowrap;
+}
+.sticky-cta:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(0,229,255,.35)}
+#sticky-close{
+  background:none;border:none;color:var(--muted);cursor:pointer;
+  font-size:18px;padding:4px;line-height:1;margin-left:8px;
+  transition:color .2s;
+}
+#sticky-close:hover{color:var(--text)}
+@media(max-width:700px){
+  #sticky-bar{flex-direction:column;gap:12px;padding:16px 20px}
+  .sticky-bar-text{text-align:center;font-size:13px}
+}
+
+/* ─── NAV ─── */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  padding:18px 0;
+  border-bottom:1px solid transparent;
+  transition:all .4s ease;
+}
+nav.scrolled{
+  background:rgba(4,6,15,.9);
+  backdrop-filter:blur(20px);
+  border-bottom-color:var(--border);
+}
+.nav-inner{
+  max-width:1200px;margin:0 auto;
+  padding:0 32px;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.logo{
+  font-family:'Unbounded',sans-serif;
+  font-size:18px;font-weight:700;
+  color:var(--text);text-decoration:none;
+  display:flex;align-items:center;gap:10px;
+}
+.logo-icon{
+  width:36px;height:36px;
+  background:linear-gradient(135deg,var(--cyan),var(--purple));
+  border-radius:8px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:18px;
+}
+.nav-links{display:flex;align-items:center;gap:36px}
+.nav-links a{
+  color:var(--muted);text-decoration:none;
+  font-size:14px;font-weight:500;
+  transition:color .3s;letter-spacing:.02em;
+}
+.nav-links a:hover{color:var(--text)}
+/* ─ HAMBURGER ─ */
+#nav-burger{
+  display:none;flex-direction:column;gap:5px;
+  background:none;border:none;cursor:pointer;padding:6px;z-index:200;
+}
+#nav-burger span{display:block;width:24px;height:2px;background:var(--text);border-radius:2px;transition:transform .3s,opacity .3s}
+#nav-burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+#nav-burger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+#nav-burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+#mobile-menu{
+  display:none;position:fixed;inset:0;z-index:150;
+  background:rgba(4,6,15,.97);backdrop-filter:blur(24px);
+  flex-direction:column;align-items:center;justify-content:center;gap:40px;
+}
+#mobile-menu.open{display:flex}
+#mobile-menu a{
+  font-family:'Unbounded',sans-serif;font-size:20px;font-weight:700;
+  color:var(--text);text-decoration:none;transition:color .2s;letter-spacing:-.01em;
+}
+#mobile-menu a:hover{color:var(--cyan)}
+#mobile-menu .m-cta{
+  background:linear-gradient(135deg,var(--cyan),var(--purple));
+  color:#000!important;padding:16px 40px;border-radius:50px;font-size:17px;
+}
+@media(max-width:900px){#nav-burger{display:flex}.nav-links{display:none}}
+.nav-cta{
+  background:linear-gradient(135deg,var(--cyan),var(--purple));
+  color:#000!important;padding:10px 24px;border-radius:50px;
+  font-weight:600!important;font-size:14px;
+  transition:transform .2s,box-shadow .2s!important;
+}
+.nav-cta:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(0,229,255,.3)!important;color:#000!important}
+
+/* ─── HERO ─── */
+.hero{
+  min-height:100vh;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;padding:140px 32px 80px;
+  position:relative;
+}
+.hero-badge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(0,229,255,.08);
+  border:1px solid rgba(0,229,255,.2);
+  border-radius:50px;padding:6px 18px;
+  font-size:13px;color:var(--cyan);
+  font-weight:500;margin-bottom:32px;
+  animation:fadeUp .8s ease both;
+}
+.badge-dot{
+  width:6px;height:6px;background:var(--cyan);
+  border-radius:50%;animation:pulse 2s infinite;
+}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+.hero h1{
+  font-size:clamp(38px,6vw,78px);
+  font-weight:900;line-height:1.05;
+  letter-spacing:-.02em;
+  margin-bottom:28px;
+  animation:fadeUp .8s .1s ease both;
+}
+.hero h1 .line-accent{
+  background:linear-gradient(90deg,var(--cyan),var(--purple2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+/* ── PREMIUM HERO TITLE FONT ── */
+.hero h1{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(48px,7.5vw,96px);
+  font-weight:300;
+  letter-spacing:-.01em;
+  line-height:1.02;
+}
+.hero-h1-top{
+  font-family:'Cormorant Garamond',serif;
+  font-weight:300;
+  font-style:italic;
+  letter-spacing:.02em;
+  color:rgba(240,244,255,.75);
+  font-size:.88em;
+}
+.hero h1 .line-accent{
+  font-family:'Cormorant Garamond',serif;
+  font-weight:700;
+  font-style:normal;
+  letter-spacing:-.02em;
+  background:linear-gradient(100deg,var(--cyan) 0%,var(--purple2) 60%,#fff 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.hero-sub{
+  font-size:clamp(17px,2vw,21px);
+  color:var(--muted);max-width:620px;margin:0 auto 48px;
+  font-weight:400;line-height:1.6;
+  animation:fadeUp .8s .2s ease both;
+}
+.hero-ctas{
+  display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+  justify-content:center;margin-bottom:72px;
+  animation:fadeUp .8s .3s ease both;
+}
+.btn-primary{
+  background:linear-gradient(135deg,var(--cyan),var(--purple));
+  color:#04060F;font-weight:700;
+  padding:16px 36px;border-radius:50px;
+  font-size:15px;text-decoration:none;
+  transition:transform .2s,box-shadow .2s;
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:'Outfit',sans-serif;
+}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(0,229,255,.3)}
+.btn-secondary{
+  border:1px solid var(--border);color:var(--text);
+  padding:16px 36px;border-radius:50px;
+  font-size:15px;text-decoration:none;
+  transition:all .2s;background:transparent;
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:'Outfit',sans-serif;font-weight:500;
+}
+.btn-secondary:hover{border-color:var(--cyan);color:var(--cyan);background:rgba(0,229,255,.05)}
+
+/* ─── STATS BAR ─── */
+.stats-bar{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+  max-width:900px;margin:0 auto;
+  background:var(--border);
+  border:1px solid var(--border);
+  border-radius:var(--r);overflow:hidden;
+  animation:fadeUp .8s .4s ease both;
+}
+.stat-item{
+  background:var(--card);
+  backdrop-filter:blur(20px);
+  padding:28px 20px;text-align:center;
+}
+.stat-num{
+  font-family:'Unbounded',sans-serif;
+  font-size:clamp(26px,3vw,38px);font-weight:900;
+  background:linear-gradient(135deg,var(--cyan),var(--purple2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+  display:block;margin-bottom:6px;
+}
+.stat-label{font-size:13px;color:var(--muted);font-weight:400}
+
+/* ─── SECTION SHARED ─── */
+section{padding:110px 32px;max-width:1200px;margin:0 auto}
+.section-tag{
+  display:inline-block;
+  background:rgba(124,58,237,.15);
+  border:1px solid rgba(124,58,237,.3);
+  color:var(--purple2);border-radius:50px;
+  font-size:12px;font-weight:600;
+  padding:5px 16px;letter-spacing:.08em;
+  text-transform:uppercase;margin-bottom:20px;
+}
+.section-title{
+  font-family:'Unbounded',sans-serif;
+  font-size:clamp(30px,4vw,52px);
+  font-weight:900;line-height:1.1;
+  letter-spacing:-.02em;margin-bottom:20px;
+}
+.section-sub{
+  font-size:18px;color:var(--muted);
+  max-width:560px;line-height:1.6;
+}
+
+/* ─── PROBLEM SECTION ─── */
+.problem-section{
+  padding:110px 32px;
+  background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%);
+  position:relative;
+}
+.problem-inner{max-width:1200px;margin:0 auto}
+.problem-grid{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:80px;align-items:center;margin-top:60px;
+}
+.problem-list{display:flex;flex-direction:column;gap:20px}
+.problem-item{
+  display:flex;align-items:flex-start;gap:16px;
+  padding:20px 24px;
+  background:rgba(255,60,60,.05);
+  border:1px solid rgba(255,60,60,.12);
+  border-radius:var(--r);
+  transition:all .3s;
+}
+.problem-item:hover{border-color:rgba(255,60,60,.3);background:rgba(255,60,60,.08)}
+.problem-icon{font-size:22px;min-width:28px;margin-top:2px}
+.problem-item p{font-size:15px;color:var(--muted);line-height:1.5}
+.problem-item strong{color:var(--text);display:block;margin-bottom:4px;font-weight:600}
+.solution-card{
+  background:linear-gradient(135deg,rgba(0,229,255,.05),rgba(124,58,237,.08));
+  border:1px solid var(--border);
+  border-radius:20px;padding:40px;
+  position:relative;overflow:hidden;
+}
+.solution-card::before{
+  content:'';position:absolute;top:-40px;right:-40px;
+  width:200px;height:200px;
+  background:radial-gradient(circle,rgba(0,229,255,.15) 0%,transparent 70%);
+  border-radius:50%;
+}
+.solution-card h3{
+  font-family:'Unbounded',sans-serif;
+  font-size:24px;font-weight:700;margin-bottom:16px;
+  line-height:1.3;
+}
+.solution-card p{color:var(--muted);font-size:15px;margin-bottom:28px}
+.solution-perks{display:flex;flex-direction:column;gap:12px}
+.perk{display:flex;align-items:center;gap:12px;font-size:15px}
+.perk-check{
+  width:20px;height:20px;min-width:20px;
+  background:linear-gradient(135deg,var(--cyan),var(--purple));
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-size:11px;
+}
+
+/* ─── SERVICES ─── */
+.services-grid{
+  display:grid;grid-template-columns:repeat(2,1fr);
+  gap:24px;margin-top:60px;
+}
+.service-card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:20px;padding:36px;
+  position:relative;overflow:hidden;
+  transition:all .3s;cursor:default;
+}
+.service-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;
+  height:1px;
+  background:linear-gradient(90deg,transparent,var(--cyan),transparent);
+  opacity:0;transition:.3s;
+}
+.service-card:hover{
+  border-color:rgba(0,229,255,.25);
+  transform:translateY(-4px);
+  box-shadow:0 24px 60px rgba(0,0,0,.4);
+}
+.service-card:hover::before{opacity:1}
+.service-icon{
+  width:56px;height:56px;border-radius:12px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:26px;margin-bottom:24px;
+}
+.service-card h3{
+  font-family:'Unbounded',sans-serif;
+  font-size:20px;font-weight:700;margin-bottom:12px;line-height:1.3;
+}
+.service-card p{color:var(--muted);font-size:14px;line-height:1.7;margin-bottom:20px}
+.service-tags{display:flex;flex-wrap:wrap;gap:8px}
+.tag{
+  font-size:12px;font-weight:500;
+  padding:4px 12px;border-radius:50px;
+  border:1px solid var(--border);color:var(--muted);
+}
+
+/* ─── HOW IT WORKS ─── */
+.how-section{
+  background:var(--bg2);
+  padding:110px 0;
+}
+.how-inner{max-width:1200px;margin:0 auto;padding:0 32px}
+.steps{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:2px;margin-top:60px;
+  position:relative;
+}
+.steps::before{
+  content:'';position:absolute;top:44px;left:calc(100%/6);right:calc(100%/6);
+  height:1px;background:linear-gradient(90deg,var(--cyan),var(--purple));
+  z-index:0;
+}
+.step{
+  background:var(--bg);border:1px solid var(--border);
+  border-radius:20px;padding:36px 28px;
+  text-align:center;position:relative;z-index:1;
+  transition:all .3s;
+}
+.step:hover{border-color:rgba(0,229,255,.25);transform:translateY(-4px)}
+.step-num{
+  width:52px;height:52px;
+  background:linear-gradient(135deg,var(--cyan),var(--purple));
+  border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Unbounded',sans-serif;font-size:18px;font-weight:900;
+  color:#04060F;margin:0 auto 24px;
+}
+.step h3{font-family:'Unbounded',sans-serif;font-size:17px;font-weight:700;margin-bottom:12px}
+.step p{color:var(--muted);font-size:14px;line-height:1.6}
+
+/* ─── RESULTS ─── */
+.results-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:24px;margin-top:60px;
+}
+.result-card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:20px;padding:36px;
+  transition:all .3s;overflow:hidden;position:relative;
+}
+.result-card::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,var(--cyan),var(--purple));
+  transform:scaleX(0);transition:.3s;transform-origin:left;
+}
+.result-card:hover{border-color:rgba(0,229,255,.2);transform:translateY(-4px)}
+.result-card:hover::after{transform:scaleX(1)}
+.result-industry{
+  font-size:12px;font-weight:600;text-transform:uppercase;
+  letter-spacing:.08em;color:var(--cyan);margin-bottom:16px;
+  display:flex;align-items:center;gap:8px;
+}
+.result-industry::before{content:'';width:24px;height:1px;background:var(--cyan)}
+.result-card h3{
+  font-family:'Unbounded',sans-serif;
+  font-size:17px;font-weight:700;margin-bottom:20px;line-height:1.4;
+}
+.result-metrics{display:flex;flex-direction:column;gap:12px;margin-bottom:20px}
+.metric-row{display:flex;justify-content:space-between;align-items:center}
+.metric-label{font-size:13px;color:var(--muted)}
+.metric-value{
+  font-family:'Unbounded',sans-serif;font-size:17px;font-weight:700;
+  background:linear-gradient(135deg,var(--cyan),var(--purple2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.result-quote{
+  font-size:13px;color:var(--muted);font-style:italic;
+  border-left:2px solid var(--cyan);padding-left:12px;line-height:1.6;
+}
+
+/* ─── ABOUT ─── */
+.about-section{
+  background:var(--bg2);padding:110px 0;
+}
+.about-inner{max-width:1200px;margin:0 auto;padding:0 32px}
+.about-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:80px;align-items:center}
+.about-avatar{
+  position:relative;
+}
+.avatar-placeholder{
+  width:100%;aspect-ratio:1;max-width:420px;
+  border-radius:24px;
+  background:linear-gradient(135deg,var(--bg3),var(--bg2));
+  border:1px solid var(--border);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  position:relative;overflow:hidden;
+}
+.avatar-initials{
+  font-family:'Unbounded',sans-serif;font-size:72px;font-weight:900;
+  background:linear-gradient(135deg,var(--cyan),var(--purple2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.avatar-ring{
+  position:absolute;
+  border:1px dashed rgba(0,229,255,.2);
+  border-radius:50%;animation:spin 20s linear infinite;
+}
+.avatar-ring:nth-child(1){width:120%;height:120%}
+.avatar-ring:nth-child(2){width:150%;height:150%;animation-direction:reverse;animation-duration:30s}
+@keyframes spin{to{transform:rotate(360deg)}}
+.about-badge{
+  position:absolute;bottom:-16px;right:-16px;
+  background:var(--bg);border:1px solid var(--border);
+  border-radius:12px;padding:14px 20px;
+  display:flex;align-items:center;gap:12px;
+}
+.about-badge-num{
+  font-family:'Unbounded',sans-serif;font-size:22px;font-weight:900;
+  color:var(--cyan);
+}
+.about-badge-text{font-size:12px;color:var(--muted);line-height:1.3}
+.about-content .section-tag{margin-bottom:16px}
+.about-content h2{
+  font-family:'Unbounded',sans-serif;
+  font-size:clamp(28px,3vw,44px);font-weight:900;
+  line-height:1.15;letter-spacing:-.02em;margin-bottom:24px;
+}
+.about-content p{color:var(--muted);font-size:16px;line-height:1.7;margin-bottom:16px}
+.about-highlights{
+  display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:32px;
+}
+.highlight{
+  background:rgba(0,229,255,.05);
+  border:1px solid rgba(0,229,255,.1);
+  border-radius:var(--r);padding:20px;
+}
+.highlight-num{
+  font-family:'Unbounded',sans-serif;font-size:26px;font-weight:900;
+  color:var(--cyan);margin-bottom:6px;
+}
+.highlight p{font-size:13px;color:var(--muted);margin:0}
+
+/* ─── TESTIMONIALS ─── */
+.testimonials-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:24px;margin-top:60px;
+}
+.testi{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:20px;padding:32px;transition:all .3s;
+}
+.testi:hover{border-color:rgba(0,229,255,.2);transform:translateY(-3px)}
+.stars{color:var(--cyan);font-size:16px;margin-bottom:16px;letter-spacing:2px}
+.testi-text{
+  font-size:15px;color:var(--text);line-height:1.7;
+  margin-bottom:24px;font-style:italic;
+}
+.testi-author{display:flex;align-items:center;gap:12px}
+.author-av{
+  width:44px;height:44px;border-radius:50%;
+  background:linear-gradient(135deg,var(--cyan),var(--purple));
+  display:flex;align-items:center;justify-content:center;
+  font-weight:700;font-size:14px;color:#04060F;
+  flex-shrink:0;
+}
+.author-name{font-weight:600;font-size:14px}
+.author-role{font-size:12px;color:var(--muted)}
+
+/* ─── PROCESS / CTA ─── */
+.cta-section{
+  background:linear-gradient(135deg,var(--bg2),var(--bg));
+  padding:110px 0;border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+}
+.cta-inner{
+  max-width:800px;margin:0 auto;text-align:center;padding:0 32px;
+}
+.cta-inner h2{
+  font-family:'Unbounded',sans-serif;
+  font-size:clamp(32px,4.5vw,58px);font-weight:900;
+  line-height:1.1;letter-spacing:-.02em;margin-bottom:24px;
+}
+.cta-inner p{font-size:18px;color:var(--muted);margin-bottom:48px;line-height:1.6}
+.cta-features{
+  display:flex;justify-content:center;gap:32px;
+  flex-wrap:wrap;margin-bottom:48px;
+}
+.cta-feat{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--muted)}
+.cta-feat span{color:var(--cyan)}
+
+/* ─── CONTACT FORM ─── */
+.contact-section{padding:110px 32px;max-width:1200px;margin:0 auto}
+.contact-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:80px;align-items:start}
+.contact-info h2{
+  font-family:'Unbounded',sans-serif;
+  font-size:clamp(28px,3vw,44px);font-weight:900;line-height:1.15;margin-bottom:20px;
+}
+.contact-info p{color:var(--muted);font-size:16px;line-height:1.7;margin-bottom:36px}
+.contact-items{display:flex;flex-direction:column;gap:16px}
+.contact-item{display:flex;align-items:center;gap:14px;font-size:15px}
+.contact-item-icon{
+  width:40px;height:40px;min-width:40px;
+  background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.15);
+  border-radius:10px;display:flex;align-items:center;justify-content:center;
+  font-size:18px;
+}
+.contact-form{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:24px;padding:40px;
+}
+.form-group{margin-bottom:20px}
+.form-group label{
+  display:block;font-size:13px;font-weight:600;
+  color:var(--muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:.06em;
+}
+.form-group input,.form-group select,.form-group textarea{
+  width:100%;background:rgba(255,255,255,.04);
+  border:1px solid var(--border);border-radius:10px;
+  padding:14px 18px;color:var(--text);font-size:15px;
+  font-family:'Outfit',sans-serif;
+  transition:border-color .3s;outline:none;
+}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{
+  border-color:var(--cyan);background:rgba(0,229,255,.04);
+}
+.form-group textarea{resize:vertical;min-height:120px}
+.form-group select{appearance:none}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.submit-btn{
+  width:100%;background:linear-gradient(135deg,var(--cyan),var(--purple));
+  color:#04060F;font-weight:700;font-size:16px;
+  padding:18px 32px;border-radius:50px;
+  border:none;cursor:pointer;font-family:'Outfit',sans-serif;
+  transition:transform .2s,box-shadow .2s;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+}
+.submit-btn:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(0,229,255,.3)}
+
+/* ─── FOOTER ─── */
+footer{
+  background:var(--bg2);
+  border-top:1px solid var(--border);
+  padding:60px 32px 40px;
+}
+.footer-inner{max-width:1200px;margin:0 auto}
+.footer-top{
+  display:grid;grid-template-columns:1.5fr repeat(3,1fr);
+  gap:60px;margin-bottom:60px;
+}
+.footer-brand p{color:var(--muted);font-size:14px;line-height:1.7;margin-top:16px;max-width:260px}
+.footer-col h4{
+  font-family:'Unbounded',sans-serif;font-size:13px;font-weight:700;
+  margin-bottom:20px;color:var(--text);
+}
+.footer-col ul{list-style:none}
+.footer-col ul li{margin-bottom:10px}
+.footer-col ul li a{
+  color:var(--muted);text-decoration:none;font-size:14px;transition:color .3s;
+}
+.footer-col ul li a:hover{color:var(--cyan)}
+.footer-bottom{
+  border-top:1px solid var(--border);padding-top:32px;
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:13px;color:var(--muted);
+}
+.footer-social{display:flex;gap:12px}
+.social-btn{
+  width:36px;height:36px;
+  background:rgba(255,255,255,.04);border:1px solid var(--border);
+  border-radius:8px;display:flex;align-items:center;justify-content:center;
+  color:var(--muted);text-decoration:none;font-size:16px;
+  transition:all .3s;
+}
+.social-btn:hover{border-color:var(--cyan);color:var(--cyan);background:rgba(0,229,255,.08)}
+
+/* ─── TECH STACK BAND ─── */
+.tech-band{background:rgba(0,229,255,.03);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:26px 0;overflow:hidden}
+.tech-band-inner{max-width:1200px;margin:0 auto;padding:0 40px;display:flex;align-items:center;gap:0;flex-wrap:wrap;justify-content:center}
+.tech-label{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);white-space:nowrap;padding-right:28px;border-right:1px solid var(--border);margin-right:28px;flex-shrink:0}
+.tech-logos{display:flex;align-items:center;gap:32px;flex-wrap:wrap;justify-content:center}
+.tech-logo{display:flex;align-items:center;gap:7px;font-size:13px;font-weight:600;color:rgba(240,244,255,.3);transition:color .3s;white-space:nowrap;cursor:default}
+.tech-logo:hover{color:rgba(240,244,255,.65)}
+.tl-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+
+/* ─── COMPARISON TABLE ─── */
+.comp-wrap{max-width:860px;margin:56px auto 0;border:1px solid var(--border);border-radius:20px;overflow:hidden}
+.comp-head{display:grid;grid-template-columns:1.2fr 1fr 1fr;background:rgba(255,255,255,.025);border-bottom:1px solid var(--border)}
+.comp-hcell{padding:18px 24px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+.comp-hcell:first-child{color:var(--muted);border-right:1px solid var(--border)}
+.comp-hcell.ours{color:var(--cyan);border-right:1px solid var(--border);background:rgba(0,229,255,.05)}
+.comp-hcell.theirs{color:rgba(240,244,255,.25)}
+.comp-row{display:grid;grid-template-columns:1.2fr 1fr 1fr;border-bottom:1px solid rgba(255,255,255,.04)}
+.comp-row:last-child{border-bottom:none}
+.comp-row:hover{background:rgba(255,255,255,.02)}
+.comp-cell{padding:16px 24px;font-size:14px;display:flex;align-items:center;gap:8px;line-height:1.4}
+.comp-cell:first-child{color:var(--muted);border-right:1px solid rgba(255,255,255,.04);font-weight:500;font-size:13px}
+.comp-cell.ours{color:var(--text);border-right:1px solid rgba(255,255,255,.04);background:rgba(0,229,255,.02);font-weight:500}
+.comp-cell.theirs{color:rgba(240,244,255,.3);font-size:13px}
+.ico-yes{color:#00E676;font-size:16px;flex-shrink:0}
+.ico-no{color:#FF5252;font-size:16px;flex-shrink:0}
+.ico-mid{color:#FFC107;font-size:16px;flex-shrink:0}
+
+/* ─── TESTIMONIALS ENHANCED ─── */
+.testi{position:relative;overflow:hidden}
+.testi::before{content:'\201C';position:absolute;top:-14px;right:16px;font-family:'Cormorant Garamond',serif;font-size:110px;font-weight:700;line-height:1;color:rgba(0,229,255,.07);pointer-events:none;z-index:0}
+.testi>*{position:relative;z-index:1}
+.testi-source{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:var(--muted);font-weight:600;margin-bottom:14px;background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:50px;padding:3px 12px;letter-spacing:.03em;text-transform:uppercase}
+.testi-source::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--cyan);flex-shrink:0;animation:pulse 2s infinite}
+.testi-result{display:inline-flex;align-items:center;gap:7px;font-size:11px;font-weight:700;color:#00E5FF;background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.2);border-radius:6px;padding:4px 11px;margin-top:14px;font-family:'Unbounded',sans-serif;letter-spacing:.02em}
+
+/* ─── URGENCY ─── */
+.urgency-block{display:inline-flex;align-items:center;gap:14px;background:rgba(255,61,90,.07);border:1px solid rgba(255,61,90,.22);border-radius:12px;padding:12px 22px;margin-bottom:32px}
+.urgency-dots{display:flex;gap:5px;align-items:center}
+.urgency-dot{width:9px;height:9px;border-radius:50%;background:rgba(255,61,90,.25)}
+.urgency-dot.on{background:#FF3D5A;box-shadow:0 0 7px rgba(255,61,90,.7)}
+.urgency-text{font-size:14px;color:var(--text);line-height:1.4}
+.urgency-text strong{color:#FF6B6B}
+
+/* ─── ABOUT FLOATING ─── */
+.about-float{position:absolute;background:rgba(4,6,15,.96);border:1px solid var(--border);border-radius:12px;padding:12px 16px;backdrop-filter:blur(12px);animation:floatBob 4s ease-in-out infinite}
+.about-float:nth-child(3){animation-delay:-2s;animation-duration:5s}
+@keyframes floatBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+
+/* ─── SCROLL PROGRESS ─── */
+#scroll-progress{position:fixed;top:0;left:0;z-index:9997;height:2px;width:0%;background:linear-gradient(90deg,var(--cyan),var(--purple2));transition:width .08s linear;box-shadow:0 0 8px rgba(0,229,255,.5);pointer-events:none}
+
+/* ─── STICKY BAR ─── */
+#sticky-bar{position:fixed;bottom:0;left:0;right:0;z-index:980;background:rgba(4,6,15,.94);backdrop-filter:blur(20px);border-top:1px solid rgba(0,229,255,.15);padding:12px 32px;display:flex;align-items:center;justify-content:center;gap:20px;transform:translateY(100%);transition:transform .4s cubic-bezier(.34,1.2,.64,1)}
+#sticky-bar.show{transform:translateY(0)}
+.sbar-live{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--muted)}
+.sbar-pulse{width:7px;height:7px;border-radius:50%;background:#FF3D5A;animation:pulse 1.5s infinite;flex-shrink:0}
+.sbar-cta{background:linear-gradient(135deg,var(--cyan),var(--purple));color:#04060F!important;font-weight:700;font-size:13px;padding:9px 22px;border-radius:50px;text-decoration:none;transition:transform .2s,box-shadow .2s;white-space:nowrap}
+.sbar-cta:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(0,229,255,.35)}
+#sbar-close{background:none;border:none;color:rgba(107,122,159,.5);cursor:pointer;font-size:16px;padding:4px;line-height:1;transition:color .2s;margin-left:4px}
+#sbar-close:hover{color:var(--muted)}
+@media(max-width:640px){#sticky-bar{flex-wrap:wrap;gap:10px;padding:12px 16px}.sbar-live{font-size:12px}}
+
+/* ─── QUALIFYING SECTION ─── */
+.pq-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:900px;margin:0 auto}
+.pq-yes,.pq-no{
+  padding:32px;border-radius:18px;
+}
+.pq-yes{background:rgba(0,229,255,.04);border:1px solid rgba(0,229,255,.15)}
+.pq-no{background:rgba(255,82,82,.03);border:1px solid rgba(255,82,82,.12)}
+.pq-item{
+  font-size:14px;color:var(--muted);line-height:1.6;
+  padding:10px 0;border-bottom:1px solid rgba(255,255,255,.04);
+  display:flex;align-items:flex-start;gap:10px;
+}
+.pq-item::before{content:'✓';color:#00E5FF;font-weight:700;flex-shrink:0;margin-top:1px}
+.pq-no-item::before{content:'✗';color:#FF5252}
+.pq-item:last-child{border-bottom:none}
+@media(max-width:700px){.pq-grid{grid-template-columns:1fr}}
+/* ─── FAQ ─── */
+.faq-list{max-width:780px;margin:48px auto 0;display:flex;flex-direction:column;gap:12px}
+.faq-item{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:14px;overflow:hidden;transition:border-color .3s;
+}
+.faq-item.open{border-color:rgba(0,229,255,.3)}
+.faq-q{
+  padding:22px 24px;cursor:pointer;
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:16px;font-weight:600;color:var(--text);
+  user-select:none;gap:16px;
+}
+.faq-q:hover{color:var(--cyan)}
+.faq-arrow{
+  font-size:18px;color:var(--muted);flex-shrink:0;
+  transition:transform .3s;
+}
+.faq-item.open .faq-arrow{transform:rotate(45deg);color:var(--cyan)}
+.faq-a{
+  max-height:0;overflow:hidden;
+  transition:max-height .4s ease,padding .3s;
+  padding:0 24px;
+}
+.faq-a p{color:var(--muted);font-size:15px;line-height:1.7;padding-bottom:22px}
+.divider{
+  width:100%;height:1px;
+  background:linear-gradient(90deg,transparent,var(--border),transparent);
+}
+
+/* ─── GLOW ORBS ─── */
+.orb{
+  position:absolute;border-radius:50%;
+  filter:blur(80px);pointer-events:none;z-index:0;
+}
+
+/* ─── ANIMATIONS ─── */
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(30px)}
+  to{opacity:1;transform:translateY(0)}
+}
+.fade-in{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.fade-in.visible{opacity:1;transform:translateY(0)}
+
+/* ─── TICKER ─── */
+.ticker-wrap{
+  background:rgba(0,229,255,.06);
+  border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+  overflow:hidden;padding:16px 0;
+}
+.ticker-track{
+  display:flex;gap:0;
+  animation:ticker 30s linear infinite;
+  width:max-content;
+}
+.ticker-item{
+  white-space:nowrap;padding:0 40px;
+  font-size:14px;font-weight:600;color:var(--muted);
+  display:flex;align-items:center;gap:10px;
+}
+.ticker-item .t-accent{color:var(--cyan)}
+.ticker-sep{color:var(--border);font-size:18px}
+@keyframes ticker{to{transform:translateX(-50%)}}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:900px){
+  .stats-bar{grid-template-columns:repeat(2,1fr)}
+  .problem-grid,.services-grid,.about-grid,.contact-grid{grid-template-columns:1fr}
+  .steps,.results-grid,.testimonials-grid{grid-template-columns:1fr}
+  .footer-top{grid-template-columns:1fr 1fr}
+  .steps::before{display:none}
+  .about-highlights{grid-template-columns:1fr 1fr}
+  .nav-links{display:none}
+}
+@media(max-width:600px){
+  .stats-bar{grid-template-columns:1fr 1fr}
+  .about-highlights,.form-row{grid-template-columns:1fr}
+  .footer-top{grid-template-columns:1fr}
+  .hero{padding:120px 20px 60px}
+}
+</style>
+</head>
+<body>
+
+<canvas id="neural-canvas"></canvas>
+
+<div class="page-wrapper">
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="logo">
+      <div class="logo-icon">🧠</div>
+      Neuroverse<span style="color:var(--cyan)">AI</span>
+    </a>
+    <div class="nav-links">
+      <a href="#servicios">Servicios</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#pablo">Sobre Mí</a>
+      <a href="#contacto" class="nav-cta">Agenda una Llamada →</a>
+    </div>
+    <button id="nav-burger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div id="mobile-menu">
+  <a href="#servicios" onclick="closeMob()">Servicios</a>
+  <a href="#resultados" onclick="closeMob()">Resultados</a>
+  <a href="#proceso" onclick="closeMob()">Proceso</a>
+  <a href="#pablo" onclick="closeMob()">Sobre Mí</a>
+  <a href="#contacto" class="m-cta" onclick="closeMob()">Agenda tu Llamada →</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" style="padding-top:160px;position:relative;">
+  <div class="orb" style="width:500px;height:500px;background:radial-gradient(circle,rgba(0,229,255,.12),transparent 70%);top:-100px;left:50%;transform:translateX(-50%)"></div>
+  <div class="orb" style="width:400px;height:400px;background:radial-gradient(circle,rgba(124,58,237,.1),transparent 70%);top:200px;right:-100px"></div>
+
+  <div class="hero-badge">
+    <span class="badge-dot"></span>
+    Agencia de IA &amp; Marketing&nbsp;·&nbsp;Growth Partner&nbsp;·&nbsp;Barcelona
+  </div>
+
+  <h1>
+    <span class="hero-h1-top">Escala tu negocio</span><br>
+    con <span class="line-accent">Inteligencia<br>Artificial</span>
+  </h1>
+
+  <p class="hero-sub">
+    Construimos sistemas de captación, automatización y ventas con IA que trabajan mientras tú cierras. Sin SDRs extra. Sin quemar presupuesto. Con resultados medibles desde el primer mes.
+  </p>
+
+  <div class="hero-ctas">
+    <a href="#contacto" class="btn-primary">Quiero Escalar mi Negocio →</a>
+    <a href="#resultados" class="btn-secondary">Ver Casos de Éxito</a>
+  </div>
+
+  <div class="stats-bar">
+    <div class="stat-item">
+      <span class="stat-num" data-target="233">0</span>
+      <span class="stat-label">Reuniones B2B en 30 días</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" data-target="356" data-prefix="$" data-suffix="K">0</span>
+      <span class="stat-label">Ingresos en 10 meses · un cliente</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" data-target="67" data-suffix="%">0</span>
+      <span class="stat-label">Bajada media coste por lead</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" data-target="30">0</span>
+      <span class="stat-label">Días hasta primeros resultados</span>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-track" id="ticker">
+    <div class="ticker-item">Sistemas de captación B2B con IA <span class="ticker-sep">·</span></div>
+    <div class="ticker-item"><span class="t-accent">233 reuniones en 30 días → caso real</span> <span class="ticker-sep">·</span></div>
+    <div class="ticker-item">Automatización de ventas sin SDRs extra <span class="ticker-sep">·</span></div>
+    <div class="ticker-item"><span class="t-accent">$356K en 10 meses → warm outreach IA</span> <span class="ticker-sep">·</span></div>
+    <div class="ticker-item">Meta Ads + Google Ads optimizados por IA <span class="ticker-sep">·</span></div>
+    <div class="ticker-item"><span class="t-accent">Coste por lead -67% → SaaS B2B Valencia</span> <span class="ticker-sep">·</span></div>
+    <div class="ticker-item">Outreach B2B a escala sin parecer spam <span class="ticker-sep">·</span></div>
+    <div class="ticker-item"><span class="t-accent">Sesión de diagnóstico gratuita → 4 plazas/mes</span> <span class="ticker-sep">·</span></div>
+    <!-- duplicate -->
+    <div class="ticker-item">Sistemas de captación B2B con IA <span class="ticker-sep">·</span></div>
+    <div class="ticker-item"><span class="t-accent">233 reuniones en 30 días → caso real</span> <span class="ticker-sep">·</span></div>
+    <div class="ticker-item">Automatización de ventas sin SDRs extra <span class="ticker-sep">·</span></div>
+    <div class="ticker-item"><span class="t-accent">$356K en 10 meses → warm outreach IA</span> <span class="ticker-sep">·</span></div>
+    <div class="ticker-item">Meta Ads + Google Ads optimizados por IA <span class="ticker-sep">·</span></div>
+    <div class="ticker-item"><span class="t-accent">Coste por lead -67% → SaaS B2B Valencia</span> <span class="ticker-sep">·</span></div>
+    <div class="ticker-item">Outreach B2B a escala sin parecer spam <span class="ticker-sep">·</span></div>
+    <div class="ticker-item"><span class="t-accent">Sesión de diagnóstico gratuita → 4 plazas/mes</span> <span class="ticker-sep">·</span></div>
+  </div>
+</div>
+
+<!-- PARA QUIEN -->
+<div style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+<section style="padding:80px 32px">
+  <div style="text-align:center;margin-bottom:48px">
+    <span class="section-tag fade-in">¿Esto es para ti?</span>
+    <h2 class="section-title fade-in" style="margin-top:16px;text-align:center">Trabajamos con empresas que ya venden.<br><span style="font-size:.75em;color:var(--muted);font-family:'Outfit',sans-serif;font-weight:400;letter-spacing:0">No con las que están empezando desde cero.</span></h2>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:900px;margin:0 auto" class="pq-grid">
+    <div class="pq-yes fade-in">
+      <div style="font-size:13px;font-weight:700;color:#00E5FF;letter-spacing:.1em;text-transform:uppercase;margin-bottom:20px">✓ Sí es para ti si…</div>
+      <div class="pq-item">Facturas más de €10K/mes y quieres escalar sin contratar 5 personas más</div>
+      <div class="pq-item">Tienes un producto o servicio que funciona pero no tienes un sistema de captación predecible</div>
+      <div class="pq-item">Tu equipo de ventas pierde horas en prospección, seguimiento o tareas que debería hacer una máquina</div>
+      <div class="pq-item">Has probado agencias o herramientas de IA y no funcionaron porque no había estrategia detrás</div>
+      <div class="pq-item">Quieres que tu crecimiento no dependa exclusivamente de ti o de tus referidos</div>
+    </div>
+    <div class="pq-no fade-in">
+      <div style="font-size:13px;font-weight:700;color:#FF5252;letter-spacing:.1em;text-transform:uppercase;margin-bottom:20px">✗ No es para ti si…</div>
+      <div class="pq-item pq-no-item">Acabas de montar tu negocio y todavía no tienes producto/mercado validado</div>
+      <div class="pq-item pq-no-item">Buscas una solución mágica sin comprometerte con el proceso</div>
+      <div class="pq-item pq-no-item">No tienes presupuesto real para invertir en crecimiento</div>
+      <div class="pq-item pq-no-item">Quieres resultados en 48 horas</div>
+    </div>
+  </div>
+</section>
+</div>
+<div class="problem-section">
+  <div class="problem-inner">
+    <div style="text-align:center;margin-bottom:16px">
+      <span class="section-tag fade-in">¿Te suena esto?</span>
+    </div>
+    <h2 class="section-title fade-in" style="text-align:center;max-width:700px;margin:0 auto 16px">
+      Tu competencia ya usa IA.<br>¿Tú sigues haciendo las cosas a mano?
+    </h2>
+    <p class="section-sub fade-in" style="text-align:center;margin:0 auto 0">
+      No es falta de ganas. Es que nadie te ha construido el sistema correcto todavía.
+    </p>
+
+    <div class="problem-grid">
+      <div class="problem-list">
+        <div class="problem-item fade-in">
+          <span class="problem-icon">⏳</span>
+          <div>
+            <strong>Tu equipo tarda 4 horas al día en prospección manual</strong>
+            <p>Buscar perfiles, escribir mensajes, hacer seguimiento… trabajo de robot que consume a tus mejores vendedores cuando deberían estar cerrando.</p>
+          </div>
+        </div>
+        <div class="problem-item fade-in">
+          <span class="problem-icon">💸</span>
+          <div>
+            <strong>Gastas en ads y los leads no tienen perfil</strong>
+            <p>Meta o Google te trae volumen, pero el 80% no cualifica. La agencia de turno no entiende tu cliente real y optimiza para clics, no para cierres.</p>
+          </div>
+        </div>
+        <div class="problem-item fade-in">
+          <span class="problem-icon">🔄</span>
+          <div>
+            <strong>El crecimiento depende de ti personalmente</strong>
+            <p>Si tú paras, la empresa para. No tienes un sistema — tienes un trabajo. Y escalar eso tiene un techo muy claro: tus horas del día.</p>
+          </div>
+        </div>
+        <div class="problem-item fade-in">
+          <span class="problem-icon">📉</span>
+          <div>
+            <strong>Probaste herramientas de IA y no funcionaron</strong>
+            <p>ChatGPT, Zapier, algún agente de LinkedIn… sin una estrategia detrás, son juguetes caros. La IA sola no vende. El sistema sí.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="solution-card fade-in">
+        <h3>Lo que necesitas no es una herramienta más.<br>Es un sistema que funcione.</h3>
+        <p>En Neuroverse AI no vendemos software. Construimos la infraestructura de crecimiento que tu empresa necesita para escalar sin depender de ti cada día.</p>
+        <div class="solution-perks">
+          <div class="perk"><span class="perk-check">✓</span> Agentes de IA que prospectan, califican y agendan reuniones solos</div>
+          <div class="perk"><span class="perk-check">✓</span> Paid media que convierte porque conoce a tu cliente ideal</div>
+          <div class="perk"><span class="perk-check">✓</span> Automatizaciones que eliminan el 70% del trabajo manual</div>
+          <div class="perk"><span class="perk-check">✓</span> Outreach B2B personalizado a escala sin parecer spam</div>
+          <div class="perk"><span class="perk-check">✓</span> Un sistema que genera oportunidades mientras duermes</div>
+          <div class="perk"><span class="perk-check">✓</span> ROI visible en el primer mes, no en 12</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="servicios">
+  <div style="text-align:center;margin-bottom:12px">
+    <span class="section-tag fade-in">Servicios</span>
+  </div>
+  <h2 class="section-title fade-in" style="text-align:center">Cuatro palancas de crecimiento.<br>Una sola agencia.</h2>
+  <p class="section-sub fade-in" style="margin:0 auto;text-align:center">
+    No hacemos todo para todos. Hacemos esto excepcionalmente bien para empresas que quieren resultados, no presentaciones.
+  </p>
+
+  <div class="services-grid">
+    <div class="service-card fade-in">
+      <div class="service-icon" style="background:rgba(0,229,255,.1)">🤖</div>
+      <h3>Captación con Agentes de IA</h3>
+      <p>Desplegamos agentes autónomos que identifican tu cliente ideal, redactan mensajes personalizados y agendan reuniones en tu calendario — sin que tu equipo toque nada. Un cliente nuestro consiguió 233 reuniones en su primer mes.</p>
+      <div class="service-tags">
+        <span class="tag">AI Agents</span>
+        <span class="tag">Lead Scoring</span>
+        <span class="tag">Outreach B2B</span>
+        <span class="tag">LinkedIn + Email</span>
+      </div>
+    </div>
+
+    <div class="service-card fade-in">
+      <div class="service-icon" style="background:rgba(124,58,237,.12)">📣</div>
+      <h3>Paid Media que Realmente Convierte</h3>
+      <p>Campañas en Meta y Google optimizadas por IA que aprenden quién es tu comprador real y dónde está. No gastamos presupuesto probando — llegamos ya sabiendo. El resultado: más leads cualificados con menos inversión.</p>
+      <div class="service-tags">
+        <span class="tag">Meta Ads</span>
+        <span class="tag">Google Ads</span>
+        <span class="tag">Creative Testing</span>
+        <span class="tag">ROAS +</span>
+      </div>
+    </div>
+
+    <div class="service-card fade-in">
+      <div class="service-icon" style="background:rgba(0,229,255,.08)">⚡</div>
+      <h3>Automatización del Pipeline de Ventas</h3>
+      <p>Mapeamos tu proceso comercial y eliminamos todo lo que no debería hacer un humano: seguimientos, actualizaciones de CRM, emails de nurturing, reportes de equipo. Tu equipo vende. Las máquinas hacen el resto.</p>
+      <div class="service-tags">
+        <span class="tag">Make / n8n</span>
+        <span class="tag">CRM Integration</span>
+        <span class="tag">Email Flows</span>
+        <span class="tag">Pipeline IA</span>
+      </div>
+    </div>
+
+    <div class="service-card fade-in">
+      <div class="service-icon" style="background:rgba(124,58,237,.1)">🧬</div>
+      <h3>Implementación Estratégica de IA</h3>
+      <p>Auditamos tu operación entera y te decimos exactamente dónde la IA genera más dinero para tu negocio específico. Luego lo construimos. Desde chatbots que convierten hasta sistemas de predicción de churn para SaaS.</p>
+      <div class="service-tags">
+        <span class="tag">Consultoría IA</span>
+        <span class="tag">Chatbots</span>
+        <span class="tag">Predicción</span>
+        <span class="tag">Reporting Auto</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<div class="how-section" id="proceso">
+  <div class="how-inner">
+    <div style="text-align:center;margin-bottom:12px">
+      <span class="section-tag fade-in">Cómo trabajamos</span>
+    </div>
+    <h2 class="section-title fade-in" style="text-align:center">Sin PowerPoints interminables.<br>Directo a construir.</h2>
+    <p class="section-sub fade-in" style="margin:0 auto;text-align:center">
+      Muchas agencias te venden estrategia durante meses. Nosotros en la primera semana ya tienes el primer sistema en marcha.
+    </p>
+
+    <div class="steps">
+      <div class="step fade-in">
+        <div class="step-num">01</div>
+        <h3>Sesión de diagnóstico (30 min)</h3>
+        <p>Hablamos. Sin plantillas genéricas. Entendemos tu negocio, tu cliente ideal y dónde está el cuello de botella real. Saldrás con claridad sobre qué palanca mueve más dinero para ti ahora mismo.</p>
+      </div>
+      <div class="step fade-in">
+        <div class="step-num">02</div>
+        <h3>Construcción e integración</h3>
+        <p>Diseñamos y desplegamos el sistema en 30-45 días. Se integra con lo que ya usas — tu CRM, tu email, tu LinkedIn. No hace falta cambiar nada. Solo añadir el motor.</p>
+      </div>
+      <div class="step fade-in">
+        <div class="step-num">03</div>
+        <h3>Optimización continua</h3>
+        <p>Los primeros resultados llegan rápido. Luego optimizamos semana a semana basándonos en datos reales. El sistema aprende, mejora y escala contigo. Tú miras los números crecer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RESULTS -->
+<section id="resultados">
+  <div style="text-align:center;margin-bottom:12px">
+    <span class="section-tag fade-in">Lo que ya han conseguido nuestros clientes</span>
+  </div>
+  <h2 class="section-title fade-in" style="text-align:center">Números reales.<br>Sin relleno.</h2>
+  <p class="section-sub fade-in" style="margin:0 auto;text-align:center">
+    No mostramos capturas de pantalla editadas ni casos de estudio de hace tres años. Esto es lo que está pasando ahora con clientes activos.
+  </p>
+
+  <div class="results-grid">
+    <div class="result-card fade-in">
+      <div class="result-industry">Agencia de Marketing · Madrid</div>
+      <h3>Pasaron de 0 reuniones outbound a 233 en un mes</h3>
+      <div class="result-metrics">
+        <div class="metric-row">
+          <span class="metric-label">Reuniones B2B cualificadas</span>
+          <span class="metric-value">233</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-label">Plazo</span>
+          <span class="metric-value">30 días</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-label">Agentes IA activos</span>
+          <span class="metric-value">6</span>
+        </div>
+      </div>
+      <p class="result-quote">"Llevábamos años funcionando solo por referidos. Pablo montó el sistema en tres semanas y en el primer mes teníamos más reuniones de las que podíamos atender. Tuvimos que frenar un poco para no colapsar al equipo."</p>
+    </div>
+
+    <div class="result-card fade-in">
+      <div class="result-industry">Consultoría B2B · Barcelona</div>
+      <h3>$356.000 generados en 10 meses con warm outreach</h3>
+      <div class="result-metrics">
+        <div class="metric-row">
+          <span class="metric-label">Ingresos atribuibles</span>
+          <span class="metric-value">$356K</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-label">Período total</span>
+          <span class="metric-value">10 meses</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-label">Canal principal</span>
+          <span class="metric-value">Warm outreach IA</span>
+        </div>
+      </div>
+      <p class="result-quote">"Teníamos una base de datos de 4.000 contactos que básicamente estaba muerta. El sistema reactivó 600 en el primer mes. Algunos llevaban 2 años sin abrir un email nuestro y respondieron."</p>
+    </div>
+
+    <div class="result-card fade-in">
+      <div class="result-industry">SaaS B2B · Valencia</div>
+      <h3>Coste por lead reducido un 67% en 45 días</h3>
+      <div class="result-metrics">
+        <div class="metric-row">
+          <span class="metric-label">Bajada coste por lead</span>
+          <span class="metric-value">-67%</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-label">Mejora conversión</span>
+          <span class="metric-value">+3.4x</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-label">Tiempo de setup</span>
+          <span class="metric-value">45 días</span>
+        </div>
+      </div>
+      <p class="result-quote">"Habíamos probado tres agencias de ads antes. Todas prometían lo mismo y los resultados eran mediocres. Con Pablo fue diferente desde el diagnóstico inicial — llegó con datos de nuestro sector antes de la primera llamada."</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<div class="about-section" id="pablo">
+  <div class="about-inner">
+    <div class="about-grid">
+      <div class="about-avatar">
+        <div class="avatar-placeholder">
+          <div class="avatar-ring"></div>
+          <div class="avatar-ring"></div>
+          <span class="avatar-initials">PV</span>
+          <div style="margin-top:12px;font-size:13px;color:var(--muted)">Pablo Villanueva</div>
+        </div>
+        <div class="about-badge">
+          <span class="about-badge-num">500+</span>
+          <span class="about-badge-text">Conexiones<br>en LinkedIn</span>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <span class="section-tag">Founder & Growth Partner</span>
+        <h2>Pablo Villanueva.<br>No soy una agencia.<br><span style="background:linear-gradient(90deg,var(--cyan),var(--purple2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">Soy el que construye el sistema.</span></h2>
+        <p>Monté Neuroverse AI porque estaba harto de ver cómo agencias cobran mucho, hacen poca cosa y desaparecen cuando los números no llegan. Cuando trabajas conmigo, estás hablando con la persona que diseña, implementa y optimiza todo. No con un junior con un manual.</p>
+        <p>Llevo más de 2.000 horas construyendo —y rompiendo— sistemas de IA para entender qué funciona de verdad en B2B. No en demos de conferencia. En pipelines reales, en sectores competitivos, con presupuestos reales.</p>
+        <p>Basado en Barcelona. Trabajo con empresas de España, Europa y Latinoamérica. Y respondo los mensajes yo mismo.</p>
+
+        <div class="about-highlights">
+          <div class="highlight">
+            <div class="highlight-num">2,000+</div>
+            <p>Horas de testing de sistemas IA</p>
+          </div>
+          <div class="highlight">
+            <div class="highlight-num">$356K</div>
+            <p>Generados en 10 meses para clientes</p>
+          </div>
+          <div class="highlight">
+            <div class="highlight-num">30 días</div>
+            <p>Para ver resultados desde día 1</p>
+          </div>
+          <div class="highlight">
+            <div class="highlight-num">BCN</div>
+            <p>Basado en Barcelona · Operamos globalmente</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TESTIMONIALS -->
+<section>
+  <div style="text-align:center;margin-bottom:12px">
+    <span class="section-tag fade-in">Clientes reales</span>
+  </div>
+  <h2 class="section-title fade-in" style="text-align:center">Que hablen ellos.</h2>
+  <p class="section-sub fade-in" style="margin:0 auto;text-align:center">Sin editar. Sin guión.</p>
+
+  <div class="testimonials-grid">
+    <div class="testi fade-in">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"Honestamente entré pensando 'otro que me va a vender la moto'. En el primer mes llegaron 233 reuniones y me quedé sin equipo para atenderlas. El problema pasó a ser otro muy distinto. Repetimos."</p>
+      <div class="testi-author">
+        <div class="author-av">DM</div>
+        <div>
+          <div class="author-name">David M.</div>
+          <div class="author-role">CEO · Agencia marketing · Madrid</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi fade-in">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"Llevo 11 años en consultoría y creía que ya sabía cómo captar clientes. Pablo vino a la primera reunión con datos de mi sector que yo no tenía. Me dejó un poco en evidencia, la verdad. Tres meses después habíamos recuperado la inversión."</p>
+      <div class="testi-author">
+        <div class="author-av">CR</div>
+        <div>
+          <div class="author-name">Carla R.</div>
+          <div class="author-role">Founder · Consultoría estratégica · Barcelona</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi fade-in">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"Lo que más nos frenaba era el miedo a quemar nuestra base de datos con spam. Pablo explicó exactamente qué límites pone el sistema y arrancamos. En el mes 2 el CPL bajó un 67%. Y los leads que entran ahora hablan nuestro idioma, no llegamos a explicar lo básico."</p>
+      <div class="testi-author">
+        <div class="author-av">JS</div>
+        <div>
+          <div class="author-name">Javier S.</div>
+          <div class="author-role">Dir. Comercial · SaaS B2B · Valencia</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section style="padding:100px 32px;max-width:1200px;margin:0 auto">
+  <div style="text-align:center;margin-bottom:12px">
+    <span class="section-tag fade-in">Preguntas frecuentes</span>
+  </div>
+  <h2 class="section-title fade-in" style="text-align:center">Las preguntas que todos hacen<br>antes de la primera llamada.</h2>
+
+  <div class="faq-list fade-in">
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        ¿En cuánto tiempo veré resultados reales?
+        <span class="faq-arrow">+</span>
+      </div>
+      <div class="faq-a">
+        <p>Los primeros indicadores (reuniones agendadas, leads entrando, respuestas de outreach) suelen aparecer en las primeras 2-3 semanas. Resultados en pipeline y facturación, entre 30 y 60 días dependiendo de tu ciclo de venta. No prometemos magia de 48 horas, pero sí resultados medibles antes de que acabe el primer mes.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        ¿Necesito tener un equipo técnico o saber de IA?
+        <span class="faq-arrow">+</span>
+      </div>
+      <div class="faq-a">
+        <p>No. Nosotros construimos, configuramos e integramos todo. Tú solo necesitas acceso a las herramientas que ya usas (CRM, email, LinkedIn) y ganas de crecer. Lo técnico es nuestro problema, no el tuyo.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        ¿Funciona para mi sector o tamaño de empresa?
+        <span class="faq-arrow">+</span>
+      </div>
+      <div class="faq-a">
+        <p>Hemos trabajado con agencias, consultoras, SaaS B2B, despachos de servicios profesionales y empresas de formación. El denominador común: venden a otras empresas y quieren más reuniones o más clientes sin contratar cinco comerciales. Si eso te describe, probablemente hay algo que podemos hacer juntos. Si no, te lo decimos en la primera llamada sin perder tu tiempo.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        ¿Qué diferencia hay entre Neuroverse AI y una agencia de marketing normal?
+        <span class="faq-arrow">+</span>
+      </div>
+      <div class="faq-a">
+        <p>Una agencia normal gestiona tus campañas. Nosotros construimos el sistema que las hace funcionar solas. La diferencia es que cuando terminas de trabajar con una agencia, todo para. Cuando terminas de trabajar con nosotros, el sistema sigue generando. Además, somos un equipo pequeño y vas a hablar con Pablo directamente, no con un account manager que lleva 40 cuentas.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        ¿Cuánto cuesta trabajar con vosotros?
+        <span class="faq-arrow">+</span>
+      </div>
+      <div class="faq-a">
+        <p>Depende del sistema que construyamos para ti. No tenemos un precio de catálogo porque cada negocio es diferente y no queremos cobrar lo mismo por algo que requiere el doble de trabajo. Lo que sí podemos decirte es que trabajamos con empresas que pueden invertir en crecimiento de forma seria. En la sesión de diagnóstico gratuita, cuando entendamos tu situación, te damos números concretos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<div class="cta-section">
+  <div class="cta-inner">
+    <span class="section-tag fade-in" style="margin-bottom:20px;display:inline-block">Plazas limitadas</span>
+    <h2 class="fade-in">
+      Solo trabajamos con<br>
+      <span style="background:linear-gradient(90deg,var(--cyan),var(--purple2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">empresas que quieren escalar de verdad.</span>
+    </h2>
+    <p class="fade-in">Agenda una sesión de diagnóstico gratuita de 30 minutos. Sin PowerPoints. Sin pitch de ventas. Te diremos exactamente qué sistema implantaríamos en tu negocio y qué resultados esperaríamos en los primeros 60 días.</p>
+    <div class="cta-features fade-in">
+      <div class="cta-feat"><span>✓</span> 30 min. Gratis. Sin compromiso.</div>
+      <div class="cta-feat"><span>✓</span> Diagnóstico real de tu negocio</div>
+      <div class="cta-feat"><span>✓</span> Plan de acción concreto</div>
+      <div class="cta-feat"><span>✓</span> Hablas directamente con Pablo</div>
+    </div>
+    <a href="#contacto" class="btn-primary fade-in" style="display:inline-flex">
+      Quiero mi sesión de diagnóstico →
+    </a>
+    <p class="fade-in" style="font-size:13px;color:var(--muted);margin-top:20px">Aceptamos máximo 4 clientes nuevos al mes para garantizar resultados.</p>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section id="contacto" class="contact-section">
+  <div class="contact-grid">
+    <div class="contact-info">
+      <span class="section-tag fade-in">Primer paso</span>
+      <h2 class="fade-in">30 minutos.<br>Un diagnóstico honesto.</h2>
+      <p class="fade-in">No hace falta que vengas con nada preparado. Cuéntame dónde estás atascado y yo te digo qué haría — aunque luego no trabajes conmigo.</p>
+
+      <div class="contact-items fade-in">
+        <div class="contact-item">
+          <div class="contact-item-icon">📍</div>
+          <span>Barcelona · Europa · Latinoamérica</span>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">💼</div>
+          <a href="https://www.linkedin.com/in/pablo-villanueva-43b726288/" target="_blank" style="color:var(--cyan);text-decoration:none">Pablo Villanueva en LinkedIn →</a>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">⚡</div>
+          <span>Te respondo en menos de 24h. Siempre.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form fade-in">
+      <h3 style="font-family:'Unbounded',sans-serif;font-size:18px;font-weight:700;margin-bottom:6px">Solicita tu sesión gratuita</h3>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:24px">Hablas directamente con Pablo. Sin intermediarios.</p>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Tu nombre</label>
+          <input type="text" placeholder="María García">
+        </div>
+        <div class="form-group">
+          <label>Empresa</label>
+          <input type="text" placeholder="Mi Empresa S.L.">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Email de trabajo</label>
+        <input type="email" placeholder="maria@miempresa.com">
+      </div>
+      <div class="form-group">
+        <label>Facturación mensual actual</label>
+        <select>
+          <option value="">¿En qué rango estás?</option>
+          <option>Menos de €5K/mes</option>
+          <option>€5K - €20K/mes</option>
+          <option>€20K - €80K/mes</option>
+          <option>€80K - €250K/mes</option>
+          <option>Más de €250K/mes</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>¿Cuál es tu mayor problema de crecimiento ahora mismo?</label>
+        <textarea placeholder="Sé específico. Cuánto más concreto seas, más útil será la sesión para ti."></textarea>
+      </div>
+      <button class="submit-btn" onclick="handleSubmit(this)">
+        <span>Quiero mi sesión de diagnóstico gratuita</span>
+        <span>→</span>
+      </button>
+      <p style="font-size:12px;color:var(--muted);text-align:center;margin-top:14px">Sin spam · Solo para empresas que quieren crecer · Máx. 4 plazas/mes</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="logo" style="font-size:16px">
+          <div class="logo-icon" style="width:30px;height:30px;font-size:15px">🧠</div>
+          Neuroverse<span style="color:var(--cyan)">AI</span>
+        </a>
+        <p>Construimos sistemas de IA y automatización que generan leads, cierran ventas y escalan negocios. Sin humo, sin plantillas, con resultados medibles.</p>
+        <div style="margin-top:20px;font-size:13px;color:var(--muted)">
+          📍 Barcelona, España
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#">Sistemas de Captación IA</a></li>
+          <li><a href="#">Paid Media & IA</a></li>
+          <li><a href="#">Automatización de Ventas</a></li>
+          <li><a href="#">Transformación Digital</a></li>
+          <li><a href="#">Outreach B2B</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#pablo">Sobre Pablo</a></li>
+          <li><a href="#resultados">Casos de Éxito</a></li>
+          <li><a href="#proceso">Proceso</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/pablo-villanueva-43b726288/" target="_blank">LinkedIn</a></li>
+          <li><a href="#contacto">Solicitar Llamada</a></li>
+          <li><a href="#">Barcelona, España</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2025 Neuroverse AI · Pablo Villanueva · Barcelona, España</span>
+      <div class="footer-social">
+        <a class="social-btn" href="https://www.linkedin.com/in/pablo-villanueva-43b726288/" target="_blank" title="LinkedIn">in</a>
+        <a class="social-btn" href="#" title="Instagram">ig</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div><!-- end page-wrapper -->
+
+<script>
+/* ─── NEURAL CANVAS ─── */
+const canvas = document.getElementById('neural-canvas');
+const ctx = canvas.getContext('2d');
+let W, H, nodes = [], t = 0;
+
+function resize(){W=canvas.width=window.innerWidth;H=canvas.height=window.innerHeight}
+resize();window.addEventListener('resize',resize);
+
+function initNodes(){
+  nodes=[];
+  const n = Math.floor((W*H)/18000);
+  for(let i=0;i<n;i++){
+    nodes.push({
+      x:Math.random()*W,y:Math.random()*H,
+      vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3,
+      r:Math.random()*1.5+.5,
+      pulse:Math.random()*Math.PI*2
+    })
+  }
+}
+initNodes();
+window.addEventListener('resize',initNodes);
+
+function drawNeural(){
+  ctx.clearRect(0,0,W,H);
+  t+=.008;
+  const maxDist=160;
+
+  for(let i=0;i<nodes.length;i++){
+    const a=nodes[i];
+    a.x+=a.vx;a.y+=a.vy;
+    if(a.x<0||a.x>W)a.vx*=-1;
+    if(a.y<0||a.y>H)a.vy*=-1;
+
+    const pulse=Math.sin(t+a.pulse);
+    const alpha=.3+pulse*.15;
+    ctx.beginPath();
+    ctx.arc(a.x,a.y,a.r*(1+pulse*.2),0,Math.PI*2);
+    ctx.fillStyle=`rgba(0,229,255,${alpha})`;
+    ctx.fill();
+
+    for(let j=i+1;j<nodes.length;j++){
+      const b=nodes[j];
+      const dx=a.x-b.x,dy=a.y-b.y;
+      const dist=Math.sqrt(dx*dx+dy*dy);
+      if(dist<maxDist){
+        const op=(1-dist/maxDist)*.25;
+        ctx.beginPath();
+        ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);
+        ctx.strokeStyle=`rgba(0,229,255,${op})`;
+        ctx.lineWidth=.5;ctx.stroke();
+      }
+    }
+  }
+  requestAnimationFrame(drawNeural);
+}
+drawNeural();
+
+/* ─── NAV SCROLL ─── */
+window.addEventListener('scroll',()=>{
+  document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>60);
+});
+
+/* ─── COUNTER ANIMATION ─── */
+function animateCounter(el){
+  const target=parseInt(el.dataset.target);
+  const prefix=el.dataset.prefix||'';
+  const suffix=el.dataset.suffix||'';
+  let current=0;
+  const step=target/60;
+  const timer=setInterval(()=>{
+    current=Math.min(current+step,target);
+    el.textContent=prefix+Math.floor(current).toLocaleString()+suffix;
+    if(current>=target)clearInterval(timer);
+  },20);
+}
+
+const counters=document.querySelectorAll('.stat-num[data-target]');
+let counted=false;
+const obsCounter=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting&&!counted){counted=true;counters.forEach(animateCounter)}});
+},{threshold:.5});
+if(counters.length)obsCounter.observe(counters[0].closest('.stats-bar'));
+
+/* ─── FADE IN ON SCROLL ─── */
+const fadeEls=document.querySelectorAll('.fade-in');
+const obsFade=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obsFade.unobserve(e.target)}});
+},{threshold:.1,rootMargin:'0px 0px -40px 0px'});
+fadeEls.forEach(el=>obsFade.observe(el));
+
+/* ─── FORM SUBMIT ─── */
+function handleSubmit(btn){
+  btn.innerHTML='<span>✓ ¡Recibido! Te contactamos pronto</span>';
+  btn.style.background='linear-gradient(135deg,#00c853,#007b33)';
+  btn.disabled=true;
+}
+
+/* ─── MOBILE MENU ─── */
+const burger = document.getElementById('nav-burger');
+const mobileMenu = document.getElementById('mobile-menu');
+function closeMob(){
+  burger.classList.remove('open');
+  mobileMenu.classList.remove('open');
+  document.body.style.overflow='';
+}
+burger.addEventListener('click',()=>{
+  const isOpen = mobileMenu.classList.toggle('open');
+  burger.classList.toggle('open',isOpen);
+  document.body.style.overflow = isOpen ? 'hidden' : '';
+});
+
+/* ─── FAQ ACCORDION ─── */
+function toggleFaq(btn){
+  const item = btn.parentElement;
+  const ans  = item.querySelector('.faq-a');
+  const isOpen = item.classList.contains('open');
+  // close all
+  document.querySelectorAll('.faq-item.open').forEach(el=>{
+    el.classList.remove('open');
+    el.querySelector('.faq-a').style.maxHeight='0';
+    el.querySelector('.faq-a').style.padding='0 24px';
+  });
+  if(!isOpen){
+    item.classList.add('open');
+    ans.style.maxHeight = ans.scrollHeight + 'px';
+    ans.style.padding   = '0 24px';
+  }
+}
+
+/* ─── SMOOTH SCROLL ─── */
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    e.preventDefault();
+    const t=document.querySelector(a.getAttribute('href'));
+    if(t)t.scrollIntoView({behavior:'smooth',block:'start'});
+  });
+});
+</script>
+
+
+<!-- ╔══════════════════════════════════════════════╗ -->
+<!-- ║   NEUROVERSE AI — CHATBOT (Claude Sonnet)    ║ -->
+<!-- ╚══════════════════════════════════════════════╝ -->
+<style>
+/* FAB */
+#nvFab{
+  position:fixed;bottom:28px;right:28px;z-index:9999;
+  width:60px;height:60px;border-radius:50%;border:none;cursor:pointer;
+  background:linear-gradient(135deg,#00E5FF,#7C3AED);
+  box-shadow:0 8px 28px rgba(0,229,255,.4);
+  display:flex;align-items:center;justify-content:center;
+  transition:transform .25s cubic-bezier(.34,1.56,.64,1),box-shadow .25s;
+  animation:nvFabPulse 3s ease-in-out infinite;
+}
+#nvFab:hover{transform:scale(1.1);box-shadow:0 14px 40px rgba(0,229,255,.55)}
+@keyframes nvFabPulse{
+  0%,100%{box-shadow:0 8px 28px rgba(0,229,255,.4),0 0 0 0 rgba(0,229,255,.25)}
+  55%{box-shadow:0 8px 28px rgba(0,229,255,.4),0 0 0 10px rgba(0,229,255,0)}
+}
+#nvFab .nv-ico{position:absolute;transition:opacity .25s,transform .3s}
+#nvFab .nv-ico-close{opacity:0;transform:scale(.5) rotate(-45deg)}
+#nvFab.active .nv-ico-chat{opacity:0;transform:scale(.5) rotate(45deg)}
+#nvFab.active .nv-ico-close{opacity:1;transform:scale(1) rotate(0)}
+
+#nvDot{
+  position:absolute;top:-3px;right:-3px;
+  width:16px;height:16px;border-radius:50%;
+  background:#FF3D5A;border:2px solid #04060F;
+  font-size:9px;font-weight:700;color:#fff;
+  display:flex;align-items:center;justify-content:center;
+}
+
+/* WINDOW */
+#nvWin{
+  position:fixed;bottom:104px;right:28px;z-index:9998;
+  width:390px;max-height:600px;
+  background:#07091A;
+  border:1px solid rgba(0,229,255,.2);
+  border-radius:22px;overflow:hidden;
+  display:flex;flex-direction:column;
+  box-shadow:0 28px 72px rgba(0,0,0,.75),inset 0 1px 0 rgba(255,255,255,.05);
+  transform:scale(.9) translateY(16px);opacity:0;pointer-events:none;
+  transition:transform .32s cubic-bezier(.34,1.4,.64,1),opacity .22s ease;
+}
+#nvWin.open{transform:scale(1) translateY(0);opacity:1;pointer-events:all}
+
+/* HEADER */
+#nvHead{
+  padding:16px 18px;
+  background:linear-gradient(135deg,rgba(0,229,255,.07),rgba(124,58,237,.1));
+  border-bottom:1px solid rgba(0,229,255,.1);
+  display:flex;align-items:center;gap:12px;flex-shrink:0;
+}
+.nv-av{
+  width:42px;height:42px;border-radius:50%;flex-shrink:0;
+  background:linear-gradient(135deg,#00E5FF,#7C3AED);
+  display:flex;align-items:center;justify-content:center;font-size:20px;
+  position:relative;
+}
+.nv-av-dot{
+  position:absolute;bottom:1px;right:1px;
+  width:10px;height:10px;border-radius:50%;
+  background:#00E676;border:2px solid #07091A;
+  animation:nvBlink 2s infinite;
+}
+@keyframes nvBlink{0%,100%{opacity:1}50%{opacity:.35}}
+.nv-head-txt{flex:1}
+.nv-head-name{font-family:'Unbounded',sans-serif;font-size:13px;font-weight:700;color:#F0F4FF}
+.nv-head-sub{font-size:11px;color:#00E5FF;margin-top:2px}
+#nvClose{background:none;border:none;color:#4B5A7A;font-size:18px;cursor:pointer;padding:4px;transition:color .2s;line-height:1}
+#nvClose:hover{color:#F0F4FF}
+
+/* MESSAGES */
+#nvMsgs{
+  flex:1;overflow-y:auto;padding:18px 14px;
+  display:flex;flex-direction:column;gap:12px;
+  scroll-behavior:smooth;min-height:0;
+}
+#nvMsgs::-webkit-scrollbar{width:3px}
+#nvMsgs::-webkit-scrollbar-thumb{background:rgba(0,229,255,.2);border-radius:2px}
+#nvMsgs::-webkit-scrollbar-track{background:transparent}
+
+.nv-row{display:flex;gap:9px;align-items:flex-end;animation:nvRowIn .28s ease both}
+@keyframes nvRowIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.nv-row.usr{flex-direction:row-reverse}
+.nv-av-sm{
+  width:28px;height:28px;border-radius:50%;flex-shrink:0;
+  background:linear-gradient(135deg,#00E5FF,#7C3AED);
+  display:flex;align-items:center;justify-content:center;font-size:13px;
+}
+.nv-row.usr .nv-av-sm{
+  background:rgba(0,229,255,.1);
+  border:1px solid rgba(0,229,255,.2);
+  font-family:'Outfit',sans-serif;font-size:10px;font-weight:700;color:#00E5FF;
+}
+.nv-bbl{
+  max-width:80%;padding:11px 15px;
+  font-size:14px;line-height:1.58;color:#E8EEFF;
+  border-radius:18px 18px 18px 4px;
+  background:rgba(255,255,255,.05);
+  border:1px solid rgba(255,255,255,.07);
+  word-break:break-word;
+}
+.nv-row.usr .nv-bbl{
+  background:linear-gradient(135deg,rgba(0,229,255,.18),rgba(124,58,237,.2));
+  border:1px solid rgba(0,229,255,.22);
+  border-radius:18px 18px 4px 18px;
+  text-align:left;color:#F0F4FF;
+}
+.nv-bbl strong{color:#00E5FF}
+.nv-bbl ul{margin:8px 0 0 16px;padding:0}
+.nv-bbl li{margin-bottom:4px;color:#9BA8C8}
+.nv-bbl p{margin:0 0 6px}
+.nv-bbl p:last-child{margin:0}
+
+/* TYPING */
+#nvTyping{display:none;gap:9px;align-items:flex-end}
+#nvTyping.show{display:flex}
+.nv-dots{
+  padding:14px 18px;
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.07);
+  border-radius:18px 18px 18px 4px;
+  display:flex;gap:5px;align-items:center;
+}
+.nv-d{width:6px;height:6px;border-radius:50%;background:#00E5FF;animation:nvDot 1.2s infinite}
+.nv-d:nth-child(2){animation-delay:.2s}
+.nv-d:nth-child(3){animation-delay:.4s}
+@keyframes nvDot{0%,80%,100%{transform:scale(.75);opacity:.3}40%{transform:scale(1.05);opacity:1}}
+
+/* CHIPS */
+#nvChips{
+  padding:0 12px 10px;
+  display:flex;gap:7px;flex-wrap:wrap;flex-shrink:0;
+}
+.nv-chip{
+  font-size:12px;padding:6px 13px;
+  background:rgba(0,229,255,.07);
+  border:1px solid rgba(0,229,255,.22);
+  border-radius:50px;color:#00E5FF;
+  cursor:pointer;font-family:'Outfit',sans-serif;
+  transition:all .2s;
+}
+.nv-chip:hover{background:rgba(0,229,255,.16);transform:translateY(-1px)}
+
+/* INPUT BAR */
+#nvFoot{
+  padding:12px 14px;
+  border-top:1px solid rgba(0,229,255,.08);
+  background:rgba(4,6,15,.6);backdrop-filter:blur(8px);
+  flex-shrink:0;
+}
+#nvForm{display:flex;gap:9px;align-items:flex-end}
+#nvInput{
+  flex:1;background:rgba(255,255,255,.05);
+  border:1px solid rgba(0,229,255,.15);border-radius:13px;
+  padding:11px 15px;color:#F0F4FF;font-size:14px;
+  font-family:'Outfit',sans-serif;resize:none;outline:none;
+  max-height:100px;min-height:42px;line-height:1.5;
+  transition:border-color .2s;
+}
+#nvInput:focus{border-color:rgba(0,229,255,.45);background:rgba(0,229,255,.03)}
+#nvInput::placeholder{color:#3B4A6A}
+#nvSend{
+  width:42px;height:42px;border-radius:11px;border:none;cursor:pointer;
+  background:linear-gradient(135deg,#00E5FF,#7C3AED);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  transition:transform .2s,opacity .2s;
+}
+#nvSend:hover{transform:scale(1.08)}
+#nvSend:disabled{opacity:.35;cursor:not-allowed;transform:none}
+#nvNote{font-size:11px;color:#2E3A52;text-align:center;margin-top:7px}
+
+/* WELCOME */
+.nv-welcome{
+  background:linear-gradient(135deg,rgba(0,229,255,.06),rgba(124,58,237,.08));
+  border:1px solid rgba(0,229,255,.15);border-radius:14px;
+  padding:18px;
+}
+.nv-welcome h4{font-family:'Unbounded',sans-serif;font-size:13px;font-weight:700;color:#F0F4FF;margin-bottom:8px}
+.nv-welcome p{font-size:13px;color:#6B7A9F;line-height:1.6;margin:0}
+
+@media(max-width:480px){
+  #nvWin{width:calc(100vw - 12px);right:6px;bottom:90px}
+  #nvFab{right:14px;bottom:14px}
+}
+</style>
+
+<!-- FAB -->
+<button id="nvFab" aria-label="Chat con Neuroverse AI">
+  <span id="nvDot">1</span>
+  <svg class="nv-ico nv-ico-chat" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#04060F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+  </svg>
+  <svg class="nv-ico nv-ico-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#04060F" stroke-width="2.5" stroke-linecap="round">
+    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+  </svg>
+</button>
+
+<!-- CHAT WINDOW -->
+<div id="nvWin" role="dialog" aria-label="Chat Neuroverse AI">
+
+  <div id="nvHead">
+    <div class="nv-av">🧠<div class="nv-av-dot"></div></div>
+    <div class="nv-head-txt">
+      <div class="nv-head-name">Neuroverse AI</div>
+      <div class="nv-head-sub">Asistente de Pablo · En línea ahora</div>
+    </div>
+    <button id="nvClose" aria-label="Cerrar">✕</button>
+  </div>
+
+  <div id="nvMsgs">
+    <div class="nv-welcome">
+      <h4>👋 Hola, soy el asistente de Neuroverse AI</h4>
+      <p>Pregúntame sobre servicios, resultados, precios o cómo podemos escalar tu negocio con IA. Estoy aquí para ayudarte.</p>
+    </div>
+  </div>
+
+  <div id="nvTyping">
+    <div class="nv-av-sm">🧠</div>
+    <div class="nv-dots">
+      <div class="nv-d"></div><div class="nv-d"></div><div class="nv-d"></div>
+    </div>
+  </div>
+
+  <div id="nvChips">
+    <button class="nv-chip">¿Qué servicios ofrecéis?</button>
+    <button class="nv-chip">¿Cuánto cuesta?</button>
+    <button class="nv-chip">Ver resultados reales</button>
+    <button class="nv-chip">¿Cómo empezamos?</button>
+  </div>
+
+  <div id="nvFoot">
+    <div id="nvForm">
+      <textarea id="nvInput" placeholder="Escribe aquí tu pregunta..." rows="1"></textarea>
+      <button id="nvSend" disabled>
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#04060F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+        </svg>
+      </button>
+    </div>
+    <div id="nvNote">Powered by Claude AI · Neuroverse AI</div>
+  </div>
+</div>
+
+<script>
+(function(){
+  /* ── SYSTEM PROMPT ── */
+  const SYS = `Eres el asistente inteligente de Neuroverse AI, la agencia de IA y marketing digital fundada por Pablo Villanueva en Barcelona.
+
+PERSONALIDAD:
+- Profesional, directo y cálido a la vez
+- Orientado a resultados y ventas (tu objetivo es cualificar al lead y llevarlo a una llamada)
+- Usas español natural, sin ser formal en exceso
+- Usas emojis con moderación
+- Respuestas concisas: máximo 3 párrafos o 5 bullets, nunca más
+
+EMPRESA — NEUROVERSE AI:
+- Fundador: Pablo Villanueva, CEO, Barcelona
+- Somos una agencia de crecimiento que combina IA + marketing para escalar negocios
+- Más de 2.000 horas de testing de sistemas de IA
+
+RESULTADOS DEMOSTRADOS:
+- 233 reuniones B2B cualificadas generadas en 30 días con 6 agentes de IA
+- $356.000 en ingresos generados en 10 meses (warm outreach automatizado)
+- Reducción de coste por lead de hasta -67% en clientes SaaS
+- Implementaciones completas en 30-45 días
+
+SERVICIOS:
+1. **Captación con IA**: Agentes de IA que prospectan, califican y contactan leads B2B 24/7 en LinkedIn y email
+2. **Paid Media + IA**: Campañas en Meta Ads y Google Ads con segmentación predictiva y optimización automática
+3. **Automatización de Ventas**: Flujos Make/Zapier, CRM automation, secuencias de email personalizadas
+4. **Transformación Digital**: Chatbots IA, análisis predictivo, reporting automático, consultoría estratégica
+
+PROCESO:
+1. Auditoría gratuita de 30 min con Pablo → identificamos oportunidades
+2. Implementación en 30-45 días → construimos los sistemas
+3. Optimización continua → escalamos lo que funciona
+
+PRECIOS:
+Las soluciones son 100% personalizadas. Para obtener precios, hay que agendar la sesión estratégica gratuita de 30 min con Pablo. No tenemos precios públicos porque cada negocio necesita una solución diferente.
+
+C�MO CUALIFICAR EL LEAD:
+Si el usuario muestra interés en contratar, hazle estas preguntas de forma natural:
+- ¿Qué tipo de negocio tienes y cuál es tu reto principal?
+- ¿Cuál es tu facturación mensual aproximada?
+- ¿Usas ya alguna herramienta de automatización?
+Luego invítales a agendar la sesión gratuita con Pablo.
+
+FORMATO DE RESPUESTA:
+- Usa **texto en negrita** para métricas y datos clave
+- Usa guiones para listas cuando sea necesario
+- Nunca uses headers markdown (##, ###)
+- Acaba con una pregunta o CTA cuando tenga sentido`;
+
+  /* ── STATE ── */
+  let history = [];
+  let busy = false;
+  let opened = false;
+
+  /* ── ELEMENTS ── */
+  const fab    = document.getElementById('nvFab');
+  const win    = document.getElementById('nvWin');
+  const msgs   = document.getElementById('nvMsgs');
+  const typing = document.getElementById('nvTyping');
+  const chips  = document.getElementById('nvChips');
+  const input  = document.getElementById('nvInput');
+  const send   = document.getElementById('nvSend');
+  const dot    = document.getElementById('nvDot');
+  const closer = document.getElementById('nvClose');
+
+  /* ── TOGGLE ── */
+  function toggle(){
+    opened = !opened;
+    fab.classList.toggle('active', opened);
+    win.classList.toggle('open', opened);
+    if(opened){
+      if(dot) dot.remove();
+      setTimeout(()=>input.focus(), 350);
+    }
+  }
+  fab.addEventListener('click', toggle);
+  closer.addEventListener('click', toggle);
+
+  /* ── CHIPS → SEND ── */
+  chips.querySelectorAll('.nv-chip').forEach(c=>{
+    c.addEventListener('click', ()=>{
+      if(busy) return;
+      const q = c.textContent.trim();
+      chips.style.display = 'none';
+      doSend(q);
+    });
+  });
+
+  /* ── INPUT EVENTS ── */
+  input.addEventListener('input', function(){
+    send.disabled = !this.value.trim();
+    this.style.height = 'auto';
+    this.style.height = Math.min(this.scrollHeight, 100) + 'px';
+  });
+
+  input.addEventListener('keydown', e=>{
+    if(e.key === 'Enter' && !e.shiftKey){
+      e.preventDefault();
+      if(!send.disabled && !busy) submit();
+    }
+  });
+
+  send.addEventListener('click', submit);
+
+  function submit(){
+    const txt = input.value.trim();
+    if(!txt || busy) return;
+    input.value = '';
+    input.style.height = 'auto';
+    send.disabled = true;
+    chips.style.display = 'none';
+    doSend(txt);
+  }
+
+  /* ── SCROLL ── */
+  function scrollDown(){ msgs.scrollTop = msgs.scrollHeight; }
+
+  /* ── ADD MESSAGE ── */
+  function addMsg(role, html){
+    const row = document.createElement('div');
+    row.className = 'nv-row' + (role==='user' ? ' usr' : '');
+    const av = document.createElement('div');
+    av.className = 'nv-av-sm';
+    av.textContent = role==='user' ? 'TÚ' : '🧠';
+    const bbl = document.createElement('div');
+    bbl.className = 'nv-bbl';
+    bbl.innerHTML = html;
+    if(role==='user'){ row.appendChild(bbl); row.appendChild(av); }
+    else { row.appendChild(av); row.appendChild(bbl); }
+    msgs.appendChild(row);
+    scrollDown();
+    return bbl;
+  }
+
+  /* ── SAFE HTML ── */
+  function safe(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+  /* ── MARKDOWN LITE ── */
+  function md(t){
+    // bold
+    t = t.replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>');
+    // bullet lists: collect consecutive lines starting with - or *
+    t = t.replace(/((?:^|\n)[*\-] .+)+/g, m=>{
+      const items = m.trim().split('\n').map(l=>l.replace(/^[*\-] /,'').trim());
+      return '<ul>' + items.map(i=>`<li>${i}</li>`).join('') + '</ul>';
+    });
+    // paragraphs
+    const paras = t.split(/\n{2,}/);
+    return paras.map(p=>{
+      p = p.trim();
+      if(!p) return '';
+      if(p.startsWith('<ul>')) return p;
+      return `<p>${p.replace(/\n/g,'<br>')}</p>`;
+    }).join('');
+  }
+
+  /* ── SHOW / HIDE TYPING ── */
+  function setTyping(on){
+    typing.classList.toggle('show', on);
+    if(on) scrollDown();
+  }
+
+  /* ── SHOW FOLLOW-UP CHIPS ── */
+  function showChips(reply){
+    chips.style.display = '';
+    chips.innerHTML = '';
+    const r = reply.toLowerCase();
+    let opts;
+    if(r.includes('servicio') || r.includes('captación') || r.includes('lead')){
+      opts = ['¿Funciona para mi sector?','¿Cuánto tiempo tarda?','Quiero una propuesta'];
+    } else if(r.includes('precio') || r.includes('coste') || r.includes('inver')){
+      opts = ['¿Cuándo veo resultados?','Ver casos de éxito','Agendar llamada gratis'];
+    } else if(r.includes('result') || r.includes('caso') || r.includes('éxito')){
+      opts = ['¿Cómo empezamos?','¿Funciona en mi sector?','Hablar con Pablo'];
+    } else {
+      opts = ['¿Cómo empezamos?','Agendar sesión gratuita','¿Qué incluye el servicio?'];
+    }
+    opts.forEach(o=>{
+      const b = document.createElement('button');
+      b.className = 'nv-chip';
+      b.textContent = o;
+      b.addEventListener('click',()=>{ if(!busy){ chips.style.display='none'; doSend(o); } });
+      chips.appendChild(b);
+    });
+  }
+
+  /* ── MAIN SEND ── */
+  async function doSend(text){
+    if(busy) return;
+    busy = true;
+    send.disabled = true;
+
+    // Add user bubble
+    addMsg('user', safe(text));
+    history.push({ role:'user', content:text });
+
+    // Show typing
+    setTyping(true);
+
+    let reply = '';
+
+    try {
+      const res = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'anthropic-version': '2023-06-01',
+          'anthropic-dangerous-direct-browser-access': 'true'
+        },
+        body: JSON.stringify({
+          model: 'claude-sonnet-4-20250514',
+          max_tokens: 600,
+          system: SYS,
+          messages: history
+        })
+      });
+
+      if(!res.ok){
+        const err = await res.text();
+        throw new Error(`HTTP ${res.status}: ${err}`);
+      }
+
+      const data = await res.json();
+      reply = (data.content || [])
+        .filter(b => b.type === 'text')
+        .map(b => b.text)
+        .join('');
+
+      setTyping(false);
+
+      if(reply){
+        addMsg('bot', md(reply));
+        history.push({ role:'assistant', content:reply });
+        showChips(reply);
+      } else {
+        addMsg('bot', '<p>No obtuve respuesta del servidor. Por favor, inténtalo de nuevo.</p>');
+      }
+
+    } catch(e){
+      setTyping(false);
+      console.error('[Neuroverse Chat]', e);
+      addMsg('bot', '<p>⚠️ Error de conexión. Por favor, inténtalo de nuevo o contáctanos en <strong>LinkedIn</strong>.</p>');
+    }
+
+    busy = false;
+    send.disabled = !input.value.trim();
+    scrollDown();
+  }
+
+})();
+</script>
+</body>
+</html>
